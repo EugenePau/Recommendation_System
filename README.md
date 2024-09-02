@@ -13,6 +13,18 @@ The Amazon Review Recommendation System is a  project designed to provide person
 - [Contributing](#contributing)
 - [License](#license)
 
+## Project Structure
+
+Recommendation_System/
+├── main.py
+├── data/
+│   └── dataset.csv
+└── src/
+    ├── __init__.py
+    ├── data_preprocessing.py
+    ├── utils.py
+    └── model.py
+
 ## Features
 
 - Analyze and preprocess Amazon product reviews
