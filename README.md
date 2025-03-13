@@ -14,7 +14,7 @@ The Amazon Review Recommendation System is a  project designed to provide person
 - [License](#license)
 
 ## Project Structure
-
+```
 Recommendation_System/
 ├── main.py
 ├── data/
@@ -24,7 +24,7 @@ Recommendation_System/
     ├── data_preprocessing.py
     ├── utils.py
     └── model.py
-
+```
 ## Features
 
 - Analyze and preprocess Amazon product reviews
@@ -36,8 +36,9 @@ Recommendation_System/
 To change the input dataset, replace the 'dataset.csv' file with your new dataset (must be in .csv). Then open main.py, change local parameters *datafile*, *columns*, *irrelevance* of the function main(). *datafile* is the name of the new dataset ; *columns* are its columns ; *irrelevance* are columns that are not in the list ['userId', 'productId', 'rating']
 
 To run the recommendation system, execute the following command in your terminal:
-
+```python
 python main.py
+```
 
 Make sure that the dataset.csv file is located in the data directory.
 
